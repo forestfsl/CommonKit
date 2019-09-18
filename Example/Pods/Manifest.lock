@@ -1,0 +1,16 @@
+PODS:
+  - CommonKit (0.0.1)
+
+DEPENDENCIES:
+  - CommonKit (from `../`)
+
+EXTERNAL SOURCES:
+  CommonKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CommonKit: a1eea9431d031669fa6c209d2ff86e714c6d0770
+
+PODFILE CHECKSUM: a5b5782eca239a2101519047c93ec7202bc226f0
+
+COCOAPODS: 1.7.5
