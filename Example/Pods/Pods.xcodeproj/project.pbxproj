@@ -46,6 +46,7 @@
 /* Begin PBXFileReference section */
 		01482D6B80F1160828F44882D6C4DC57 /* APIProgressHUD+Board.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "APIProgressHUD+Board.h"; path = "CommonKit/Classes/APIProgressHUD+Board.h"; sourceTree = "<group>"; };
 		03E7AE0BD0D09DA8429F3B6F60B2D4CD /* Pods-CommonKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonKit_Tests.modulemap"; sourceTree = "<group>"; };
+		075B91022333200400E8DEB8 /* CommonMarco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMarco.h; sourceTree = "<group>"; };
 		1146E422F2D6AFC3AB44864FEA51F71B /* APIProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APIProgressHUD.h; path = CommonKit/Classes/APIProgressHUD.h; sourceTree = "<group>"; };
 		12114FB820B9B995CCBA39A11F12D1F8 /* Pods-CommonKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1D5C015F7D30C4DD459894E9984369E3 /* Pods-CommonKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonKit_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -62,26 +63,26 @@
 		62C0065CC4DE68E7827BBC5B206F40EA /* Target_HUDViewHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_HUDViewHandler.h; path = CommonKit/Classes/Target_HUDViewHandler.h; sourceTree = "<group>"; };
 		6762FB29338E5E9C9156B5F62C9CC4B6 /* Target_CacheHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_CacheHandler.h; path = CommonKit/Classes/Target_CacheHandler.h; sourceTree = "<group>"; };
 		682F10DA6F266993B2AE51590D5432B6 /* Pods-CommonKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		70AAFF6C70895CE764B3C9BE0299CBEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		70AAFF6C70895CE764B3C9BE0299CBEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		71BD722EC3ADDFA687D9D413F9B4BB06 /* Pods-CommonKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonKit_Example-dummy.m"; sourceTree = "<group>"; };
 		7391BA3A5A4AC9DFD11B125400EB928B /* Pods-CommonKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		75F4FF283ABFA9771E1FBD546A4E8520 /* APIProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APIProgressHUD.m; path = CommonKit/Classes/APIProgressHUD.m; sourceTree = "<group>"; };
 		82581702A723E77586EC17570844D919 /* Pods-CommonKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		87EA01FEF21E0EF40D8DDA753D182F2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		87EA01FEF21E0EF40D8DDA753D182F2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8B461906EC5D845B38AD2B9C0B999435 /* CommonKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CommonKit.modulemap; sourceTree = "<group>"; };
 		8E163F87AD02D964B22BBBBC0DD1A733 /* Target_HUDViewHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_HUDViewHandler.m; path = CommonKit/Classes/Target_HUDViewHandler.m; sourceTree = "<group>"; };
-		9AFB317A117461CF3F3FDAB38150491C /* Pods_CommonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CommonKit_Example.framework; path = "Pods-CommonKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AFB317A117461CF3F3FDAB38150491C /* Pods_CommonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A67CC139F8DD62D40F95C6F20A3DF472 /* Pods-CommonKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ACDE8C4464A347FEBA53B4234E60BE47 /* Pods-CommonKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonKit_Example.modulemap"; sourceTree = "<group>"; };
 		B9BAA9013B5A396E05B49262D5F9061E /* CommonKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CommonKit-Info.plist"; sourceTree = "<group>"; };
 		BC10D3489ABEE87926898052799C2CA7 /* CommonKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonKit-umbrella.h"; sourceTree = "<group>"; };
 		C5FD7405D1B443EBBEE31FD4D7120EEC /* Pods-CommonKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		D153818FACA69CFD0FA42F006D15FC41 /* Pods-CommonKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		D9E8F36E52A44BDBEB99579FE1266C2F /* Pods_CommonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CommonKit_Tests.framework; path = "Pods-CommonKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA6B61BF95EA3086DE439F44875ADEEE /* CommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommonKit.framework; path = CommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E8F36E52A44BDBEB99579FE1266C2F /* Pods_CommonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6B61BF95EA3086DE439F44875ADEEE /* CommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99E65C2D27FAA930B98163D9A70C7AF /* CommonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonKit-dummy.m"; sourceTree = "<group>"; };
-		ED2BF1D89C56744CE0453065F4710D44 /* CommonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CommonKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED2BF1D89C56744CE0453065F4710D44 /* CommonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CommonKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F4A1FFDD3340B80D45D007DA6F33CF0C /* Pods-CommonKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -227,6 +228,7 @@
 		F661BAFAE677F98CADB64FDE1A7547A0 /* CommonKit */ = {
 			isa = PBXGroup;
 			children = (
+				075B91022333200400E8DEB8 /* CommonMarco.h */,
 				1146E422F2D6AFC3AB44864FEA51F71B /* APIProgressHUD.h */,
 				75F4FF283ABFA9771E1FBD546A4E8520 /* APIProgressHUD.m */,
 				01482D6B80F1160828F44882D6C4DC57 /* APIProgressHUD+Board.h */,
@@ -549,8 +551,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
