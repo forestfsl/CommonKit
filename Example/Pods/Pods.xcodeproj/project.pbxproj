@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075B91042333219800E8DEB8 /* CommonMarco.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B91032333219800E8DEB8 /* CommonMarco.h */; };
 		202A1D61C7063F353ECCD58765799E5A /* Target_CacheHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6762FB29338E5E9C9156B5F62C9CC4B6 /* Target_CacheHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23EBB31DF435E3648EB58AA2DCE58368 /* Pods-CommonKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BD722EC3ADDFA687D9D413F9B4BB06 /* Pods-CommonKit_Example-dummy.m */; };
 		2F4948FB6E2B0BF28FF538014EB71A84 /* Pods-CommonKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5C015F7D30C4DD459894E9984369E3 /* Pods-CommonKit_Tests-dummy.m */; };
@@ -46,7 +47,7 @@
 /* Begin PBXFileReference section */
 		01482D6B80F1160828F44882D6C4DC57 /* APIProgressHUD+Board.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "APIProgressHUD+Board.h"; path = "CommonKit/Classes/APIProgressHUD+Board.h"; sourceTree = "<group>"; };
 		03E7AE0BD0D09DA8429F3B6F60B2D4CD /* Pods-CommonKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonKit_Tests.modulemap"; sourceTree = "<group>"; };
-		075B91022333200400E8DEB8 /* CommonMarco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMarco.h; sourceTree = "<group>"; };
+		075B91032333219800E8DEB8 /* CommonMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonMarco.h; path = CommonKit/Classes/CommonMarco.h; sourceTree = "<group>"; };
 		1146E422F2D6AFC3AB44864FEA51F71B /* APIProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APIProgressHUD.h; path = CommonKit/Classes/APIProgressHUD.h; sourceTree = "<group>"; };
 		12114FB820B9B995CCBA39A11F12D1F8 /* Pods-CommonKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1D5C015F7D30C4DD459894E9984369E3 /* Pods-CommonKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonKit_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -228,7 +229,7 @@
 		F661BAFAE677F98CADB64FDE1A7547A0 /* CommonKit */ = {
 			isa = PBXGroup;
 			children = (
-				075B91022333200400E8DEB8 /* CommonMarco.h */,
+				075B91032333219800E8DEB8 /* CommonMarco.h */,
 				1146E422F2D6AFC3AB44864FEA51F71B /* APIProgressHUD.h */,
 				75F4FF283ABFA9771E1FBD546A4E8520 /* APIProgressHUD.m */,
 				01482D6B80F1160828F44882D6C4DC57 /* APIProgressHUD+Board.h */,
@@ -271,6 +272,7 @@
 				D88C98D8B3857257D45D1374AE455896 /* APIProgressHUD.h in Headers */,
 				E500B367FA50E6F2460FB2300EFCFCE8 /* CommonKit-umbrella.h in Headers */,
 				202A1D61C7063F353ECCD58765799E5A /* Target_CacheHandler.h in Headers */,
+				075B91042333219800E8DEB8 /* CommonMarco.h in Headers */,
 				E7AD5774EDC7B67A1FA5D163C9B43F20 /* Target_HUDViewHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
